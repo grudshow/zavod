@@ -1,0 +1,57 @@
+	/*Выподающий список*/
+	/*.option-list{
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		float: right;
+		margin-right: 200px;
+		line-height: 22px;
+	}
+	.option-list >li{
+		float: left;
+	}
+
+	.select-sort{
+		margin-left: 5px;
+		border: 2px solid #4c6dac;
+		cursor: pointer;
+		position: relative;
+		width: 200px;
+	}
+
+	.select-sort::after{
+		content: '';
+		position: absolute;
+		top: 7px;
+		right: 10px;
+		background: url(../img/icon/select.png);
+		width: 14px;
+		height: 8px;
+		background-size: 100% 100%;
+	}
+	.sorting-list{
+		display: none;
+	}
+	.sorting-list a{
+		background-color: #4c6dac;
+		color: white;
+		display: block;
+		border-bottom: 2px solid #3E588A;
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+	}*/
+
+	/*////*/
+
+
+	               /* <!-- <ul class="option-list">
+                	<li class="name-sort">Сортировать:</li>
+                	<li><a class="select-sort">Без сортировки</a>
+                		<ul class="sorting-list">
+                			<li><a href="">Стайлинг</a></li>
+                			<li><a href="">Защита он насекомых</a></li>
+                			<li><a href="">Средства для ухода в доме</a></li>
+                			<li><a href="">От А до Я</a></li>
+                		</ul>
+                	</li>
+                </ul> -->*/
